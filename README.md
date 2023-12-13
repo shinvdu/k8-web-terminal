@@ -1,3 +1,5 @@
+fork 出来了， 处理了在2023年11月， 在go1.19.2下编译失败的问题。 在k8s 1.25下， 默认会传node ip， 这样找不到pods， 把这个filter给去掉了， 现在列出所有的pods. 本来是测试web shell, 这个不伤大雅。。。
+----
 本项目使用 beego + websocket 进行开发
 
 ```
